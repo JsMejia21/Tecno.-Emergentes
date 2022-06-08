@@ -16,7 +16,7 @@
 
                     {{ __('You are logged ADMIN!') }}
                     <div>
-                          <h1>Inventario de Casa Comercial RIDEL versión ALFA</h1>
+                          <h1>Inventario de Casa Comercial RIDEL versión ALFA 2</h1>
                     </div>
                 </div>
             </div>
