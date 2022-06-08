@@ -5,17 +5,23 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+                <div class="card-header">
+                    <h5>{{ __('Mensaje') }}</h5>
+                </div>
 
                 <div class="card-body">
                     @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
+                    <div class="alert alert-success" role="alert">
+                        {{ session('status') }}
+                    </div>
                     @endif
 
-                    {{ __('You are logged ADMIN!') }}
+                    {{ __('Bienvenido al panel de Administración de  Casa Comercial Ridel!') }}
+                    <hr>
+                    <h6>Selecciona una de las Opciones de la Barra de Navegación</h6>
                 </div>
+
+               
             </div>
         </div>
     </div>
