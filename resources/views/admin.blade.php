@@ -15,9 +15,13 @@
                     @endif
 
                     {{ __('You are logged ADMIN!') }}
+                    <div>
+                          <h1>Inventario de Casa Comercial RIDEL versión ALFA 2</h1>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 @endsection
