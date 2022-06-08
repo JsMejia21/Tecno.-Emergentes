@@ -64,6 +64,12 @@
                             <li class="nav-item">
 		                        <a class="nav-link" href="{{ route('proveedores') }}">{{ __('Proveedores') }}</a>
                             </li>
+                            <li class="nav-item">
+		                        <a class="nav-link" href="{{ route('ventas') }}">{{ __('Comprobante para Ventas') }}</a>
+                            </li>
+                            <li class="nav-item">
+		                        <a class="nav-link" href="{{ route('compras') }}">{{ __('Comprobante para Compras') }}</a>
+                            </li>
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }}
